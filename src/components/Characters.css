@@ -1,0 +1,57 @@
+/* Definir a fonte futurística */
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0a0a0a; /* Preto */
+  color: #fff; /* Texto branco */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  color: #ffcc00; /* Dourado */
+  text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.6); /* Sombra dourada */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #333; /* Cinza escuro */
+  border-radius: 10px;
+  border: 2px solid #ffcc00; /* Borda dourada */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.05); /* Efeito de zoom */
+  background-color: #444; /* Cinza mais claro */
+  cursor: pointer;
+}
+
+strong {
+  color: #ffcc00; /* Dourado */
+  font-size: 24px;
+}
+
+a {
+  color: #ffcc00; /* Dourado */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #fff; /* Branco ao passar o mouse */
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7);
+}
